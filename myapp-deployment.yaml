@@ -14,7 +14,7 @@ spec:
         app: myapp
     spec:
       containers:
-        - image: registry.hub.docker.com/gitara9rudocker/app:latest
+        - image: docker.io/gitara9rudocker/app:latest
           name: myapp
           ports:
             - containerPort: 3000
